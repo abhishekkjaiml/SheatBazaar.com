@@ -15,5 +15,5 @@ front-end developers
 <br>
 back-end developers
 <br>
-1. Tanmay Baranwal
+1. Tanmay Baranwal <br>
 2. Abhishek Kumar Jaiswar
