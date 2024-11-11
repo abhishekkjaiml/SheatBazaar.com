@@ -8,7 +8,7 @@ front-end developers
 1. Abhishek Kumar Jaiswar
 2. Nikhil Maurya
 3. Uday Pratap Singh
-4. Siddhart Chaurasia
+4. Siddharth Chaurasiya
 5. Akash Kumar Patel
 6. Mohit Viswakarma
 7. Tanmay Baranwal
