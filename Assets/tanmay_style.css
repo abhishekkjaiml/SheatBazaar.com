@@ -116,7 +116,7 @@ header {
 .box {
     border: 2px solid #b5abab;
     width: 25%;
-    height: 260px;
+    height: 300px;
     background-color: white;
     margin-top: 2rem;
     border-radius: 20px;
@@ -145,80 +145,80 @@ h2 {
 
 .img1 {
     background-image: url(womens\ fashion.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
     background-size: cover;
 }
 
 .img2 {
     background-image: url(mens\ fashion.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
     background-size: cover;
 }
 
 .img3 {
     background-image: url(electronics.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 .img4 {
     background-image: url(homa\ and\ lifestyle.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 .img5 {
     background-image: url(medicines.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 .img6 {
     background-image: url(sports\ and\ outdoor.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 .img7 {
     background-image: url(babys\ and\ toys.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 .img8 {
     background-image: url(groceries\ and\ pets.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 .img9 {
     background-image: url(health\ and\ beauty.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
@@ -237,27 +237,71 @@ h2 {
 
 .img10 {
     background-image: url(bsp\ 1.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 .img11 {
     background-image: url(bsp\ 2.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 .img12 {
     background-image: url(bsp\ 3.jpeg);
-    height: 130px;
+    height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom: -40px;
-    margin-top: 1.2rem;
+    margin-top: 1.3rem;
 }
 
 /* best selling products ends here*/
+
+/* ad2 starts here  */
+
+.ad2 {
+    /* margin-top: 60px; */
+    height: 500px;
+    padding-top: 60px;
+    padding-left: 75px;
+    background-color: var(--seccolor);
+}
+
+/* New arrivals starts here  */
+
+.truck_new_arrivals {
+    background-color: var(--seccolor);
+    padding-left: 80px;
+    padding-top: 130px;
+    padding-bottom: 10px;
+}
+
+.img10 {
+    background-image: url(bsp\ 1.jpeg);
+    height: 160px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.3rem;
+}
+.img11 {
+    background-image: url(bsp\ 2.jpeg);
+    height: 160px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.3rem;
+}
+.img12 {
+    background-image: url(bsp\ 3.jpeg);
+    height: 160px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.3rem;
+}
