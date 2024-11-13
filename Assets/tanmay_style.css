@@ -91,9 +91,8 @@ header {
     padding-top: 70px;
     padding-bottom: 10px;
 }
-.cate {
 
-}
+
 
 .categories {
     /* background-color: rgba(171, 241, 215, 0.904); */
@@ -218,7 +217,7 @@ h2 {
     margin-top: 1.2rem;
 }
 .img9 {
-    background-image: url(groceries\ and\ pets.jpeg);
+    background-image: url(health\ and\ beauty.jpeg);
     height: 130px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -226,3 +225,39 @@ h2 {
     margin-top: 1.2rem;
 }
 /* browse by categories ends here  */
+
+/* best selling products */
+
+.truck {
+    background-color: var(--seccolor);
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.img10 {
+    background-image: url(bsp\ 1.jpeg);
+    height: 130px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.2rem;
+}
+.img11 {
+    background-image: url(bsp\ 2.jpeg);
+    height: 130px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.2rem;
+}
+.img12 {
+    background-image: url(bsp\ 3.jpeg);
+    height: 130px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.2rem;
+}
+
+/* best selling products ends here*/
