@@ -83,15 +83,27 @@ header {
 }
 
 /* browse by categories */
+
+
+.truck {
+    background-color: var(--seccolor);
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.cate {
+
+}
+
 .categories {
     /* background-color: rgba(171, 241, 215, 0.904); */
-    background-color:  var(--seccolor);
+    background-color: var(--seccolor);
     font-size: 1.8rem;
     font-weight: 600;
-    font-family: math;
-    padding-top: 15px;
-    padding-left: 18px;
-    margin-bottom: -10px;
+    font-family: system-ui;
+    padding-top: 30px;
+    padding-left: 85px;
+    /* margin-bottom: -10px; */
 }
 
 .shop-section {
@@ -103,18 +115,20 @@ header {
 }
 
 .box {
-    border: 2px solid white;
-    width: 23%;
-    height: 250px;
+    border: 2px solid #b5abab;
+    width: 25%;
+    height: 260px;
     background-color: white;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     border-radius: 20px;
+    background-color: #b5abab;
 }
 
 h2 {
     margin-top: 1.3rem;
     margin-left: 1.2rem;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: system-ui;
 }
 
 
@@ -196,6 +210,14 @@ h2 {
 }
 
 .img8 {
+    background-image: url(groceries\ and\ pets.jpeg);
+    height: 130px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: -40px;
+    margin-top: 1.2rem;
+}
+.img9 {
     background-image: url(groceries\ and\ pets.jpeg);
     height: 130px;
     margin-left: 1.2rem;
