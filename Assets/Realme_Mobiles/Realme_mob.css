@@ -18,7 +18,7 @@ ul.ex-opt li{
     margin-left: 43px;
     font-size:medium;
     margin-top: 8px;
-font-family: sans-serif;
+    font-family: sans-serif;
 }
 .catg{
     width: 15%;
@@ -110,6 +110,9 @@ form.mod-el a label{
 }
 
 /*Mobile Phone Section*/
+a:hover p b{
+    color: rgb(48, 142, 219);
+}
 
 .container1{
     margin-right: 10px;
@@ -127,7 +130,7 @@ form.mod-el a label{
     width: auto;
     height: 165px;
     margin-top: -23.5%;
-    margin-left: -31%;
+    margin-left: -32%;
     display: flex;
     
 }
@@ -137,23 +140,24 @@ form.mod-el a label{
     height:160px;
     background-color: #fffffff5;
     float: right;
-    margin-right: 32%;
-    margin-top: 14px;
+    margin-right: 31%;
+    margin-top: 20px;
 
 }
 .dv-head {
     margin-left:2%;
+    font-family: sans-serif;
 }
 .dv-dt{
     margin-top: 10px;
-    margin-left: 4%;
+    margin-left: 6%;
     font-size: small;
 }
 /*price class*/
 .container3{
     width:20%;
     height:auto;
-    background-color: #fffffff5;
+    background-color:#fffffff5;
     float: left;
     margin-left: 73%;
     margin-top: -13.5%;
