@@ -4,38 +4,37 @@
 }
 
 :root{
-    --color:  #05886b;
-    --seccolor: #98aaaa;
+    --color:  #727272;
+    --seccolor: #b8bbbb;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: 1.2rem;
     font-family: system-ui;
     background-color:var(--color);
+    padding-bottom: 15px;
 }
 
 .navbar {
-
     height: 60px;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 240px;
+    gap: 200px;
 }
 
 .nav-logo {
-    /* margin-right: 100px; */  
+    background-image: url(final\ logo.png); 
+    background-size: cover;
+    width: 95px;
+    height: 98px;
+    margin-bottom: 8px;
 }
-.hac {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
+
 .search-icon {
     width: 45px;
     display: flex;
@@ -51,35 +50,125 @@ header {
     width: 270px;
     height: 40px;
     border-radius: 4px;
-    margin-left: 150px;
+    margin-left: 90px;
 }
 .nav-fav {
     margin-left: -55px;
 }
 .nav-cart {
     margin-left: -55px;
+    text-decoration: none;
 }
+
 .search-input {
     border: none;
     background-color:  var(--seccolor);
 }
+.hac {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 .home a {
     color: black;
+    text-decoration: none;
 }
 .about a {
     color: black;
+    text-decoration: none;
 }
-.contact a {
+.sign-up a {
     color: black;
+    text-decoration: none;
 }
-
+.home :hover {
+    color: wheat;
+}
+.about :hover {
+    color: wheat;
+}
+.sign-up :hover {
+    color: wheat;
+}
+.nav-fav :hover {
+    color: wheat;
+}
+.nav-cart :hover {
+    color: wheat;
+}
 
 /* navbar ends here  */
 
 /* banner part  */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+}
+figure {
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+.slide {
+    position: relative;
+    /* height: 100%; */
+    width: 25%;
+    float: left;
+}
+.slide img {
+    width: 100%;
+    height: 500px;
+}
 .banner{
     width: 98.7vw;
     height: 100vh;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    55%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    66%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -100%;
+    }
+    85%{
+        left: -100%;
+    }
+    90%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
 }
 
 /* browse by categories */
@@ -111,11 +200,11 @@ header {
     justify-content: space-evenly;
     /* background-color: rgba(171, 241, 215, 0.904); */
     background-color:  var(--seccolor);
-    padding-bottom: 150px;
+    padding-bottom: 140px;
 }
 
 .box {
-    border: 2px solid #b5abab;
+    border: 2px solid transparent;
     width: 25%;
     height: 300px;
     background-color: white;
@@ -308,6 +397,37 @@ h2 {
     margin-top: 1.3rem;
 }
 
+/* tabs  */
+
+.extra {
+    background-color: var(--seccolor);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 85px;
+    gap: 110px;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.top {
+    font-size: 25px;
+    border: 6px solid #8f8a8a;
+    border-radius: 45px;
+    background-color: #d1b0b0;
+}
+.free {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.free2 {
+    font-family: system-ui;
+    font-size: 14px;
+    margin-top: -8px;
+}
 
 
 /* Footer starts here  */
