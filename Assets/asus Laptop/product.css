@@ -23,6 +23,7 @@ body{
 }
 ul.ex-opt{
     display: flex;
+    margin-right: 30px;
 }
 ul.ex-opt li{
     display: flex;
