@@ -12,6 +12,7 @@ body{
     height: 30px;
     background-color: #fffffff5;
     padding-bottom: 15px;
+    justify-content: center;
 }
 ul.ex-opt{
     display: flex;
@@ -22,6 +23,7 @@ ul.ex-opt li{
     font-size:medium;
     margin-top: 13.5px;
     font-family: sans-serif;
+    justify-content: center;
 }
 .catg{
     width: 15%;
