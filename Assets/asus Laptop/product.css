@@ -8,7 +8,7 @@ body{
 }
 /*Navigation Bar Start*/
 .A-opt{
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 15px;
@@ -21,16 +21,20 @@ ul.ex-opt{
     margin-right: 30px;
 }
 ul.ex-opt li{
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: space-evenly;
     gap: 200px;
     list-style-type: none;
     margin-left:43px;
     font-size:16px;
-    margin-top: 13.5px;
+    margin-top: 13px;
     font-family: sans-serif;
 }
+/*Navigation Bar End*/
+
+
+/*Left Nevigation Bar/Product Catogary */
 .catg{
     width: 15%;
     height: 100%;
@@ -40,15 +44,22 @@ ul.ex-opt li{
     border-radius: 3px;
     float: left;
     border-style:initial;
-    border-color: black;
-    
-    
+    border-color: black;  
 }
 .cat-tag{
     margin-left: 5px;
+    font-family: sans-serif;
+}
+#elec {
+    margin-left:5px; 
+    font-family:'Times New Roman', Times, serif;   
 }
 .cat1-opt{
     margin-left: 15px;
+}
+div.cat1-opt b{
+    margin-left: 10px;
+    font-family: sans-serif;
 }
 .cat1op1{
     font-size: 14px;
@@ -57,11 +68,24 @@ span.cat1op1 p a{
     text-decoration: none;
     color: black;
 }
+#prod-type{
+    margin-left: 20px; font-family: sans-serif; padding-top: 5px;
+}
+/*Catogary Section End*/
+
+/*Product Filter Section*/
 
 .filt1{
     margin-left: 10px;
     font-family:sans-serif ;
     
+}
+.filt1  p{
+    margin-top:10px; 
+}
+#pr-range{
+    padding-left: 8px;
+    padding-right:8px;
 }
 span.rg{
     display: flex;
@@ -69,9 +93,6 @@ span.rg{
 .rg1{
     width:70px;
     
-}
-.rg2{
-    width:70px;
 }
 .scr-bar{
     width:95%;
@@ -82,8 +103,52 @@ span.rg{
 
 
 
-/*brand filter*/
+/*brand filter/Search*/
+.div-row3{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: serif;
 
+}
+div.div-row3 p{
+    font-family: sans-serif;
+}
+.brad-search{
+    border-style: none;
+    border-bottom: 1px solid rgb(214, 207, 207);
+    background-color: white;
+    width: 95%;
+    margin-top: 15px;
+}
+
+    
+
+.bi-search{
+    display: flex;
+    margin-left: 88%;
+    margin-top:-10%;
+    margin-bottom: 10px;
+}
+/*Brand Search/Filter End*/
+
+/*Deal Discount & item Condition*/
+#cat1op1 p a{
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+#cat1op1    p{
+    margin-top:3px;
+}
+
+
+
+
+/*All Componant Type Start*/
+#comp-type{
+    margin-bottom: 100px;
+}
+/*All Component Type End*/
 /*CPU Type*/
 .cpu-type{
     font-family: sans-serif;
@@ -110,25 +175,7 @@ div.cpu-type form a label{
 
 
 
-.div-row3{
-    margin-top: 15px;
-    margin-left: 10px;
-    font-family: serif;
 
-}
-.brad-search{
-    border-style: none;
-    border-bottom: 1px solid rgb(214, 207, 207);
-    background-color: white;
-    width: 95%;
-    margin-top: 15px;
-}
-.bi-search{
-    display: flex;
-    margin-left: 88%;
-    margin-top:-10%;
-    margin-bottom: 10px;
-}
 .mod-el{
     margin-left: 10px;
     margin-top: 10px;
@@ -223,24 +270,3 @@ a:hover p.dv-head b{
 
 
 /* Responsive Program*/
-@media only screen and (max-width:380px){
-
-    .A-opt{
-        width: 100%;
-        height: 20px;
-        background-color: #fffffff5;
-    }
-
-    ul.ex-opt{
-        display: flex;
-    }
-
-    ul.ex-opt li{
-
-        list-style-type: none;
-        margin-left:6px;
-        font-size:5.3px;
-        margin-top:5.5px;
-        font-family: sans-serif;
-    }
-}
