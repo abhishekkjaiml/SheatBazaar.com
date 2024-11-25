@@ -1,79 +1,61 @@
 *{
     padding: 0%;
     margin: 0%;
-}
-body{
-    background-color: #f1f3f6;
-    
-}
-/*Navigation Bar Start*/
-.A-opt{
-    /*display: flex;*/
-    align-items: center;
-    justify-content: space-evenly;
-    padding-bottom: 15px;
-    width: 100%;
-    height: 30px;
-    background-color: #fffffff5;
-}
-ul.ex-opt{
-    display: flex;
-    margin-right: 30px;
-}
-ul.ex-opt li{
-    /*display: flex;*/
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 200px;
-    list-style-type: none;
-    margin-left:43px;
-    font-size:16px;
-    margin-top: 13px;
     font-family: sans-serif;
 }
-/*Navigation Bar End*/
+:root{
+    --color1:#fffffff5;
+    --color2:#f1f3f6;
+    --color4:#ffffff;
+    --color5:#018dff;
+    
+}
 
+/*Start From Here!*/
 
-/*Left Nevigation Bar/Product Catogary */
 .catg{
     width: 15%;
     height: 100%;
-    background-color: #fffffff5;
+    background-color:var(--color1);
     margin-left: 10px;
     margin-top: 5px;
     border-radius: 3px;
     float: left;
     border-style:initial;
-    border-color: black;  
+    border-color: black; 
+
 }
+
+.hr1{
+    border: 1px solid rgb(214, 207, 207);
+}
+
 .cat-tag{
     margin-left: 5px;
-    font-family: sans-serif;
 }
-#elec {
+#cat-elc {
     margin-left:5px; 
-    font-family:'Times New Roman', Times, serif;   
 }
 .cat1-opt{
     margin-left: 15px;
 }
 div.cat1-opt b{
     margin-left: 10px;
-    font-family: sans-serif;
 }
+
 .cat1op1{
     font-size: 14px;
 }
-span.cat1op1 p a{
-    text-decoration: none;
-    color: black;
+.cat1op1 p{
+    margin-top:3px;
 }
 #prod-type{
-    margin-left: 20px; font-family: sans-serif; padding-top: 5px;
+    margin-left: 20px;
+    padding-top: 5px;
 }
-/*Catogary Section End*/
 
-/*Product Filter Section*/
+
+/*Filter Secction*/
 
 .filt1{
     margin-left: 10px;
@@ -97,12 +79,6 @@ span.rg{
 .scr-bar{
     width:95%;
 }
-.hr1{
-    border: 1px solid rgb(214, 207, 207);
-}
-
-
-
 /*brand filter/Search*/
 .div-row3{
     margin-top: 15px;
@@ -115,13 +91,12 @@ div.div-row3 p{
 }
 .brad-search{
     border-style: none;
-    border-bottom: 1px solid rgb(214, 207, 207);
-    background-color: white;
+    border-bottom: 1px solid #d6cfcf;
+    background-color: var(--color4);
     width: 95%;
     margin-top: 15px;
 }
 
-    
 
 .bi-search{
     display: flex;
@@ -131,24 +106,26 @@ div.div-row3 p{
 }
 /*Brand Search/Filter End*/
 
-/*Deal Discount & item Condition*/
-#cat1op1 p a{
-    font-size: 14px;
-    text-decoration:none;
+
+.mod-el{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+form.mod-el a{
+    text-decoration: none;
     color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-top:-25px;
 }
-#cat1op1    p{
-    margin-top:3px;
+
+form.mod-el a label{
+    margin-left: 7px;
 }
 
 
-
-
-/*All Componant Type Start*/
-#comp-type{
-    margin-bottom: 100px;
-}
-/*All Component Type End*/
 /*CPU Type*/
 .cpu-type{
     font-family: sans-serif;
@@ -174,32 +151,7 @@ div.cpu-type form a label{
 }
 
 
-
-
-.mod-el{
-    margin-left: 10px;
-    margin-top: 10px;
-}
-form.mod-el a{
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-    font-size: 15px;
-    display: flex;
-    margin-top:-25px;
-    
-    
-    
-}
-form.mod-el a label{
-    margin-left: 7px;
-}
-.row5{
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-/*Mobile Phone Section*/
+/*Product Buy Details Section*/
 
 .container1{
     margin-right: 10px;
@@ -209,8 +161,7 @@ form.mod-el a label{
     height:210px;
     color: black;
     border-radius: 3px;
-    background-color:#fffffff5;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:var(--color1);
 }
 /*img class*/
 .pr-dt{
@@ -225,7 +176,7 @@ form.mod-el a label{
 .container2{
     width:50%;
     height:160px;
-    background-color: #fffffff5;
+    background-color: var(--color1);
     float: right;
     margin-right: 30%;
     margin-top: 25px;
@@ -239,7 +190,7 @@ p.dv-head b{
     font-family: sans-serif;
 }
 a:hover p.dv-head b{
-    color: rgb(1, 141, 255);
+    color: var(--color5);
 }
 
 .dv-dt{
@@ -253,7 +204,7 @@ a:hover p.dv-head b{
 .container3{
     width:20%;
     height:auto;
-    background-color: #fffffff5;
+    background-color: var(--color1);
     float: left;
     margin-left: 73.5%;
     margin-top: -13.6%;
@@ -267,6 +218,3 @@ a:hover p.dv-head b{
 .ls-ed{
     margin-top: 5px;
 }
-
-
-/* Responsive Program*/
