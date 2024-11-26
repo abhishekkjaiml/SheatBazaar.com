@@ -1,0 +1,440 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+:root{
+    --color1:#fffffff5;
+    --color2:#f1f3f6;
+    --color4:#ffffff;
+    --color5:#018dff;
+    --color9:#c1f6ff;
+}
+
+/*Start From Here!*/
+
+.catg{
+    width: 15%;
+    height: 100%;
+    background-color:var(--color1);
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    float: left;
+    border-style:initial;
+    border-color: black; 
+
+}
+
+.hr1{
+    border: 1px solid rgb(214, 207, 207);
+}
+
+.cat-tag{
+    margin-left: 5px;
+}
+#cat-elc {
+    margin-left:5px; 
+}
+.cat1-opt{
+    margin-left: 15px;
+}
+div.cat1-opt b{
+    margin-left: 10px;
+}
+
+.cat1op1{
+    font-size: 14px;
+}
+.cat1op1 p{
+    margin-top:3px;
+}
+#prod-type{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+
+/*Filter Secction*/
+
+.filt1{
+    margin-left: 10px;
+    font-family:sans-serif ;
+    
+}
+.filt1  p{
+    margin-top:10px; 
+}
+#pr-range{
+    padding-left: 8px;
+    padding-right:8px;
+}
+span.rg{
+    display: flex;
+}
+.rg1{
+    width:70px;
+    
+}
+.scr-bar{
+    width:95%;
+}
+/*brand filter/Search*/
+.div-row3{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: serif;
+
+}
+div.div-row3 p{
+    font-family: sans-serif;
+}
+.brad-search{
+    border-style: none;
+    border-bottom: 1px solid #d6cfcf;
+    background-color: var(--color4);
+    width: 95%;
+    margin-top: 15px;
+}
+
+
+.bi-search{
+    display: flex;
+    margin-left: 88%;
+    margin-top:-10%;
+    margin-bottom: 10px;
+}
+/*Brand Search/Filter End*/
+
+
+.mod-el{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+form.mod-el a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-top:-25px;
+}
+
+form.mod-el a label{
+    margin-left: 7px;
+}
+
+
+/*CPU Type*/
+.cpu-type{
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+div.cpu-type form a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-top:-25px;
+    
+}
+div.cpu-type form a label{
+    margin-left: 5px;
+}
+.cpu-type_position{
+
+    margin-top: 20px;
+}
+
+
+/*Sale Details Section*/
+.salenot{
+    width: 83%;
+    overflow: hidden;
+    display: flex;
+    height: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-size: cover;
+    border-radius: 3px;
+    background-color: var(--color1);
+}
+
+
+
+/*slider Bar start*/
+
+
+
+/* banner part  */
+/* banner part  */
+.slider {
+    width: 83%;
+    overflow: hidden;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+figure {
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+.slide {
+    position: relative;
+    /* height: 100%; */
+    width: 25%;
+    float: left;
+}
+.slide img {
+    width: 100%;
+    height: 250px;
+}
+.banner{
+    width: 98.7vw;
+    height: 100vh;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    55%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    66%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -100%;
+    }
+    85%{
+        left: -100%;
+    }
+    90%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+/*Bank Slide*/
+/*
+.slider2 {
+    width: 95%;
+    overflow: hidden;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+
+
+}
+.figure2 {
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+.slide2 {
+    position: relative;
+    /* height: 100%; */
+    
+    /**  REMOVE COMMENT TAG
+
+    width: 25%;
+    float: left;
+}
+.slide2 img {
+    width: 100%;
+    height: 250px;
+}
+.banner2{
+    width: 98.7vw;
+    height: 100vh;
+}
+
+.container5{
+    margin-right: 10px;
+    width:83%;
+    margin-top: 5px;
+    margin-right: 6px;
+    float: right;
+    margin-right: 6px;
+    height:160px;
+    color: black;
+    border-radius: 3px;
+    background-color: var(--color9);
+}
+
+@keyframes slide2{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    55%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    66%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -100%;
+    }
+    85%{
+        left: -100%;
+    }
+    90%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+*/
+/*IMG Product*/
+
+.container1{
+    margin-right: 10px;
+    width:83%;
+    margin-top: 5px;
+    float: right;
+    margin-right: 6px;
+    height:390px;
+    color: black;
+    border-radius: 3px;
+    background-color: var(--color9);
+}
+.product-imgs{
+    display: flex;
+    width: 100%;
+    height: 190px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right:auto ;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    
+    
+}
+
+.product-imgs img{
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+.product-imgs a  div p{
+    text-align: center;
+}
+
+.product-imgs1{
+    display: flex;
+    width: 99.9%;
+    height: 190px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 5px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+}
+
+.product-imgs1 img{
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+.product-imgs1 a  div p{
+    text-align: center;
+}
+/*Img Product Ends Here*/
+
+.shot-brd{
+    margin-right: 10px;
+    width:83%;
+    margin-top: 5px;
+    float: right;
+    margin-right: 6px;
+    height:195px;
+    color: black;
+    border-radius: 3px;
+    background-color: var(--color1);
+}
+.shot-brd h3{
+    padding: 5px 10px;
+}
+.shot-brd a img{
+    width: 110px;
+    padding: 10px 8.6px;
+}
+
+.shot-brd1{
+    margin-right: 10px;
+    width:83%;
+    margin-top: 5px;
+    float: right;
+    margin-right: 6px;
+    height:330px;
+    color: black;
+    border-radius: 3px;
+    background-color: var(--color1);
+}
+.shot-brd1 h3{
+    padding: 5px 10px;
+}
+
+.shot-brd1 a img.mus{
+    width: 210px;
+    padding: 10px 11px;
+}
