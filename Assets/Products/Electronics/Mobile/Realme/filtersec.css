@@ -1,68 +1,73 @@
 *{
     padding: 0%;
     margin: 0%;
-}
-body{
-    background-color: #f1f3f6;
-    
-}
-/*Navigation Bar Start*/
-.A-opt{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-bottom: 15px;
-    width: 100%;
-    height: 30px;
-    background-color: #fffffff5;
-    padding-bottom: 15px;
-}
-ul.ex-opt{
-    display: flex;
-    margin-right: 30px;
-}
-ul.ex-opt li{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 200px;
-    list-style-type: none;
-    margin-left:43px;
-    font-size:16px;
-    margin-top: 13.5px;
     font-family: sans-serif;
 }
+:root{
+    --color1:#fffffff5;
+    --color2:#f1f3f6;
+    --color4:#ffffff;
+    --color5:#018dff;
+    
+}
+
+/*Start From Here!*/
+
 .catg{
     width: 15%;
     height: 100%;
-    background-color: #fffffff5;
+    background-color:var(--color1);
     margin-left: 10px;
     margin-top: 5px;
     border-radius: 3px;
     float: left;
     border-style:initial;
-    border-color: black;
-    
-    
+    border-color: black; 
+
 }
+
+.hr1{
+    border: 1px solid rgb(214, 207, 207);
+}
+
 .cat-tag{
     margin-left: 5px;
+}
+#cat-elc {
+    margin-left:5px; 
 }
 .cat1-opt{
     margin-left: 15px;
 }
+div.cat1-opt b{
+    margin-left: 10px;
+}
+
 .cat1op1{
     font-size: 14px;
 }
-span.cat1op1 p a{
-    text-decoration: none;
-    color: black;
+.cat1op1 p{
+    margin-top:3px;
 }
+#prod-type{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+
+/*Filter Secction*/
 
 .filt1{
     margin-left: 10px;
     font-family:sans-serif ;
     
+}
+.filt1  p{
+    margin-top:10px; 
+}
+#pr-range{
+    padding-left: 8px;
+    padding-right:8px;
 }
 span.rg{
     display: flex;
@@ -71,57 +76,104 @@ span.rg{
     width:70px;
     
 }
-.rg2{
-    width:70px;
-}
 .scr-bar{
     width:95%;
 }
-.hr1{
-    border: 1px solid rgb(214, 207, 207);
-}
-
-
-
-
+/*brand filter/Search*/
 .div-row3{
     margin-top: 15px;
     margin-left: 10px;
     font-family: serif;
 
 }
-.brad-search{
-    border-style: none;
-    border-bottom: 1px solid rgb(214, 207, 207);
-    background-color: white;
-    width: 95%;
-    margin-top: 15px;
+div.div-row3 p{
+    font-family: sans-serif;
 }
+.brad-search{
+    /*border-style: none;*/
+    /*border-bottom: 1px solid #d6cfcf;*/
+    background-color: var(--color4);
+    width: 85%;
+    margin-top: 15px;
+
+    outline: none;
+    border: none;
+    /*background-color:  var(--seccolor3);*/
+
+    /*Don't See This Update some code*/
+
+    /*height: 40px;
+    width: 25%;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    overflow: none;
+    border-radius: 2px;
+    color: var(--color1);
+    margin-top: 50px;*/
+}
+hr.hr2{
+    width: 88%;
+    margin-top:-5px;
+    margin-bottom: 10px;
+}
+
+
 .bi-search{
     display: flex;
     margin-left: 88%;
     margin-top:-10%;
+    margin-bottom: 10px;
 }
+/*Brand Search/Filter End*/
+
+
 .mod-el{
     margin-left: 10px;
     margin-top: 10px;
 }
+
 form.mod-el a{
     text-decoration: none;
     color: black;
     font-family: sans-serif;
     font-size: 15px;
-    
-}
-form.mod-el a label{
-    margin-top: 15px;
-}
-.row5{
-    margin-top: 10px;
-    margin-left: 10px;
+    display: flex;
+    margin-top:-25px;
 }
 
-/*Mobile Phone Section*/
+form.mod-el a label{
+    margin-left: 7px;
+}
+
+
+/*CPU Type*/
+.cpu-type{
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+div.cpu-type form a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-top:-25px;
+    
+}
+div.cpu-type form a label{
+    margin-left: 5px;
+}
+.cpu-type_position{
+
+    margin-top: 20px;
+}
+
+
+/*Product Buy Details Section*/
+
 a:hover p b{
     color: rgb(48, 142, 219);
 }
