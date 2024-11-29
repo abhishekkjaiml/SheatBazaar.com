@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 :root{
     --color1:#fffffff5;
@@ -124,9 +125,10 @@ header {
 /* Tanmay navbar ends here  */
 
 
-
+.pointer{
+    cursor: pointer;
+}
 /*Login Page Start here*/
-
 .container1{
     background-color: var(--color1);
 }
@@ -134,162 +136,88 @@ header {
     border: 1px solid rgb(214, 207, 207);
 }
 .container2{
-    width:75%;
+    width:55%;
     height: 550px;
-    background-color:rgba(172, 229, 231, 0.288);
+    background-color:var(--color1);
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    padding: 30px;
-    border-radius: 5px;
-}
-.image-sec{
-    width: 40%;
-    height:490px;
-    background-color: var(--color1);
-    border-radius: 5px;
-
-}
-
-.bg-img{
-    width: 430px;
-    margin-top: 100px;
-    margin-left: -20px;
-}
-.contaner3{
-    width: 60%;
-    height:490px;
-
-
-    margin-top: -48%;
-    float: right;
-
-    border-radius: 3px;
-    padding: 2%
-
-
-}
-.logpage{
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 90%;
-    height: 350px;
-    margin-top:45px;
-    padding: 10px;
-}
-form{
-    margin-top: 30px;
-}
-
-
-.logpage b{
-    font-size: 25px;
-    padding-bottom: 2px;
-}
-.uname{
-    width: 100%;
-    height: 40px;
-    outline: none;
-    border: none;
-    padding: 10px;
-    font-size: 17px;
-
-}
-.acc{
-    border-radius: 3px;
-}
-.pass{
-    width:100%;
-    height: 40px;
-    outline: none;
-    border: none;
-
-    padding: 10px;
-    font-size: 17px;
-}
-
-
-.fog{
-    margin-top: 120px;
-}
-b.fogps a{
-    font-size: 15px;
-    color: rgb(228, 14, 46);
-    float: right;
-    text-decoration: none;
-    margin-top: 8px;
-}
-
-input.submit{
-    height: 40px;
-    width: 25%;
-    font-size: 20px;
-    background-color: orangered;
-    border: none;
-    overflow: none;
     border-radius: 2px;
+
+    /*border-radius: 5px;*/
+}
+.container3{
+    width: 33%;
+    height: 548.5px;
+    background-color: rgb(2, 141, 255);
     color: var(--color1);
-    margin-top: 50px;
-}
-.submit2{
-    height: 40px;
-    width: 32%;
-    text-decoration: none;
-    /*box-shadow: 1px 2px 1px 2px #888888;*/
-    font-size: 20px;
-    background-color: var(--color1);
-    box-shadow: 0px 2px 2px var(--color8);
-    /*border: none;*/
-    overflow: none;
-    border-radius: 2px;
-    color: #000000;
-    
-    padding: 5px;
-    /*float: ;*/
-    margin-top: 20px;
-    margin-left: 5%;
-    font-style:inherit;
-}
-
-.pointer{
-    cursor: pointer;
-}
-
-
-/*.login-by-g{
-    display: flex;
-    margin-top: 20px;
-}*/
-
-/*.goog-noti{
-    font-size: large;
-    margin-top: 20px;
-}*/
-
-.google{
-    width:40%;
-    height: 32px;
-    background-color: var(--color1);
-
     align-items: center;
-    text-align: center;
-    padding: 5px;
-    border-radius: 20px;
-    margin-top: 25px;
-    color: rgb(228, 14, 46);
+    padding: 45px 25px;
+    float:left;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;*/
 }
-.google a{
-    color: rgb(228, 14, 46);
+.container3 b{
+    font-size: xx-large;
+}
+.container3 p{
+    margin-top:15px;
+}
+.container3 img{
+    width: 145%;
+    margin-left: -50px;
+    margin-top: 25%;
+}
+.container4{
+    width: 67%;
+    align-items: center;
+    padding: 50px;
+    height: 548.5px;
+    float: left;
+}
+
+.signup{
+    padding-top: 20px;
+}
+#form1{
+    width: 90%;
+    padding: 10px;
+    margin-top:10px;
+    font-size: 15px;
+    border-radius: 2px;
+    /*border: 1px solid black*/;
+}
+
+.ac{
+    font-size: 25px;
+}
+.note{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.note a{
+    color:rgb(2, 141, 255);
     text-decoration: none;
 }
-.g-ac{
-margin-left: 10px;
+
+
+/*Form Section class*/
+
+#form2{
+    width: 90%;
+    padding: 10px;
+    margin-top:10px;
+    font-size: 15px;
+    border-radius: 2px;
 }
-.g-ac b{
-    font-size: 17px;
-}
-.bi-google{
-    width:16px; 
-    height:16px;
+.Submit-bt{
+    background-color: rgb(2, 141, 255);
+    color: var(--color1);
+    border: none;
+    overflow:nono;
+    border-radius: 2px;
+    box-shadow: 1px 5px 5px var(--color8);
+    text-transform: uppercase;
 }
