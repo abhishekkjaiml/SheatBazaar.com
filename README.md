@@ -19,15 +19,17 @@ PPT design by
 PPT Presentation by
 1. Tanmay Baranwal
 2. Abhishek Kumar Jaiswar 
-
 <br>
-PPT Design by
-
 <br>
 back-end developers
 <br>
-1. Tanmay Baranwal <br>
-2. Abhishek Kumar Jaiswar
+1. Abhishek Kumar Jaiswar
 <br>
+<br>
+Languages used in this project.
+<br>
+1. HTML
+2. CSS
+3. JAVASCRIPT (js)
 <br>
 UI/UX Design by Tanmay Baranwal and Abhishek Kumar Jaiswar 
