@@ -133,10 +133,11 @@ ul.ex-opt {
 
 ul.ex-opt li {
     list-style-type: none;
-    margin-left: 66px;
+    margin-left: 80px;
     font-size: medium;
     margin-top: 8px;
     font-family: sans-serif;
+
 }
 
 /* nav 2 ends here  */
@@ -307,7 +308,7 @@ h2 {
 }
 
 .img4 {
-    background-image: url(lp/homa\ and\ lifestyle.jpeg);
+    background-image: url(lp/Mac.jpg);
     height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -316,7 +317,7 @@ h2 {
 }
 
 .img5 {
-    background-image: url(lp/medicines.jpeg);
+    background-image: url(lp/mob.jpg);
     height: 160px;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
