@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+:root{
+    --color1:#fffffff5;
+    --color2:#f1f3f6;
+    --color8:#878787;
+
+    /*Tanmay Css*/
+    --color:  #727272;
+    --seccolor: #b8bbbb;
+    --color3:#f8caca;
+    --seccolor3: #ebdfdf;
+}
+body{
+    background-color: var(--color2);
+}
+
+
+/*Tanmay Navigation Bar End*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-family: system-ui;
+    background-color:var(--color1);
+    padding-bottom: 10px;
+}
+
+.navbar {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.nav-logo {
+    background-image: url("final logo.png"); 
+    background-size: cover;
+    width: 40px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--seccolor3);
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 90px;
+}
+.fa-solid{
+    width: 20px;
+}
+.nav-fav {
+    margin-left: -55px;
+}
+.fa-heart{
+    width: 20px;
+    margin-top: 5.5px;
+}
+.nav-cart {
+    margin-left: -55px;
+    text-decoration: none;
+}
+.fa-cart-shopping{
+    width: 20px;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    background-color:  var(--seccolor3);
+}
+.hac {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.home a {
+    color: black;
+    text-decoration: none;
+}
+.about a {
+    color: black;
+    text-decoration: none;
+}
+.sign-up a {
+    color: black;
+    text-decoration: none;
+}
+.home :hover {
+    color: wheat;
+}
+.about :hover {
+    color: wheat;
+}
+.sign-up :hover {
+    color: wheat;
+}
+.nav-fav :hover {
+    color: wheat;
+}
+.nav-cart :hover {
+    color: wheat;
+}
+
+/* Tanmay navbar ends here  */
+
+
+.pointer{
+    cursor: pointer;
+}
+/*Login Page Start here*/
+.container1{
+    background-color: var(--color1);
+}
+.hr1{
+    border: 1px solid rgb(214, 207, 207);
+}
+.container2{
+    width:55%;
+    height: 550px;
+    background-color:var(--color1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 2px;
+
+    /*border-radius: 5px;*/
+}
+.container3{
+    width: 33%;
+    height: 548.5px;
+    background-color: rgb(2, 141, 255);
+    color: var(--color1);
+    align-items: center;
+    padding: 45px 25px;
+    float:left;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;*/
+}
+.container3 b{
+    font-size: xx-large;
+}
+.container3 p{
+    margin-top:15px;
+}
+.container3 img{
+    width: 145%;
+    margin-left: -50px;
+    margin-top: 25%;
+}
+.container4{
+    width: 67%;
+    align-items: center;
+    padding: 50px;
+    height: 548.5px;
+    float: left;
+}
+
+.signup{
+    padding-top: 20px;
+}
+#form1{
+    width: 90%;
+    padding: 10px;
+    margin-top:10px;
+    font-size: 15px;
+    border-radius: 2px;
+    /*border: 1px solid black*/;
+}
+
+.ac{
+    font-size: 25px;
+}
+.note{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.note a{
+    color:rgb(2, 141, 255);
+    text-decoration: none;
+}
+
+
+/*Form Section class*/
+
+#form2{
+    width: 90%;
+    padding: 10px;
+    margin-top:10px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.Submit-bt{
+    background-color: rgb(2, 141, 255);
+    color: var(--color1);
+    border: none;
+    overflow:nono;
+    border-radius: 2px;
+    box-shadow: 1px 5px 5px var(--color8);
+    text-transform: uppercase;
+}
