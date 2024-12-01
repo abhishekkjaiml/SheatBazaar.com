@@ -1,0 +1,819 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+:root{
+    --color1:#fffffff5;
+    --color2:#f1f3f6;
+    --color8:#878787;
+
+    /*Tanmay Css*/
+    --color:  #727272;
+    --seccolor: #b8bbbb;
+    --color3:#f8caca;
+    --seccolor3: #ebdfdf;;
+}
+
+/*Tanmay Navigation Bar End*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-family: system-ui;
+    background-color:var(--color1);
+    padding-bottom: 10px;
+}
+
+.navbar {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.nav-logo {
+    background-image: url("final logo.png"); 
+    background-size: cover;
+    width: 40px;
+    height: 48px;
+    margin-bottom: 8px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--seccolor3);
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 90px;
+}
+.fa-solid{
+    width: 20px;
+}
+.nav-fav {
+    margin-left: -55px;
+}
+.fa-heart{
+    width: 20px;
+    margin-top: 5.5px;
+}
+.nav-cart {
+    margin-left: -55px;
+    text-decoration: none;
+}
+.fa-cart-shopping{
+    width: 20px;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    background-color:  var(--seccolor3);
+}
+.hac {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.home a {
+    color: black;
+    text-decoration: none;
+}
+.about a {
+    color: black;
+    text-decoration: none;
+}
+.sign-up a {
+    color: black;
+    text-decoration: none;
+}
+.home :hover {
+    color: wheat;
+}
+.about :hover {
+    color: wheat;
+}
+.sign-up :hover {
+    color: wheat;
+}
+.nav-fav :hover {
+    color: wheat;
+}
+.nav-cart :hover {
+    color: wheat;
+}
+
+/* Tanmay navbar ends here  */
+
+
+body{
+    background-color: var(--color2);   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*Navigation Bar Start*/
+.navBar{
+    /*display: flex;*/
+    align-items: center;
+    /*justify-content: space-evenly;*/
+    padding-bottom: 14px;
+    width: 100%;
+    height: 25px;
+    background-color: var(--color1);
+    margin-top: -28.9%;
+    display: flex;
+   /* align-items: center;*/
+    justify-content: space-evenly;
+    /*padding-top: 20px;*/
+    /*font-size: 1.2rem;*/
+    /*font-family: system-ui;*/
+    /*background-color:var(--color);*/
+    /*padding-bottom: 15px;*/
+
+}
+ul.navOpt{
+    display: flex;
+    /*margin-right: 30px;*/
+    gap: 60px;
+}
+ul.navOpt li{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+    list-style-type: none;
+    /*margin-left:43px;*/
+    font-size:16px;
+    margin-top: 11px;
+}
+
+/*Electronics option Start*/
+
+div.navBar ul.navOpt li:hover .electronics{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 15%;
+    height: 51%;
+    padding-bottom: 85px;
+    margin-left: 5%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.electronics ul{
+    display:block;
+    list-style-type:none;
+}
+
+.electronics{
+    display: none;
+}
+.electronics ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5.5px;
+    font-size: 13.5px;
+}
+.electronics ul li a:hover{
+    color: var(--color8);
+}
+
+/*Laptop Sections Start*/
+div.electronics ul li:hover .Laptop{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 98%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Laptop ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Laptop{
+    display: none;
+}
+.Laptop ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+.Laptop ul li a:hover{
+    color: var(--color8);
+}
+
+/*Laptop Section Ends*/
+
+/*TVs & Appliences Sec*/
+div.navBar ul.navOpt li:hover .TVs_Applicatio{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 13%;
+    height: 38%;
+    margin-left: 13%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.TVs_Applicatio ul{
+    display:block;
+    list-style-type:none;
+}
+
+.TVs_Applicatio{
+    display: none;
+}
+.TVs_Applicatio ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+/*===========================================*/
+
+/*Television Sections Start*/
+div.TVs_Applicatio ul li:hover .Television{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 95.7%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Television ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Television{
+    display: none;
+}
+.Television ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Laptop Section Ends*/
+
+/*Television Sections Start*/
+div.Television ul li:hover .Television2{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Television2 ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Television2{
+    display: none;
+}
+.Television2 ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Laptop Section Ends*/
+
+/*===========================================*/
+/*Men's Wears*/
+
+/*
+div.navBar ul.navOpt li:hover .MenSec{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 4%;
+    background-color:var(--color1);
+    width: 8%;
+    margin-left: 3%;
+    border-radius: 2px;
+    /*box-shadow: 0 0 1px 0;*/
+/*}*/
+/**/
+/*.MenSec ul{
+    display:block;
+    list-style-type:none;
+}
+
+.MenSec{
+    display: none;
+}
+.MenSec ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+*/
+
+/*Men's Section*/
+div.navBar ul.navOpt li:hover .MenSec{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left: 25%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.MenSec ul{
+    display:block;
+    list-style-type:none;
+}
+
+.MenSec{
+    display: none;
+}
+.MenSec ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+/*Men's Footwear Start Here*/
+
+div.MenSec ul li:hover .Footwear{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Footwear ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Footwear{
+    display: none;
+}
+.Footwear ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+/*Men's Footwear End Here*/
+
+/*Mens Section End Hear*/
+/*Woman Section*/
+div.navBar ul.navOpt li:hover .WomanSec{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left: 30%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.WomanSec{
+    display:block;
+    list-style-type:none;
+}
+
+.WomanSec{
+    display: none;
+}
+.WomanSec ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Woman Section Ends*/
+/*Woman Fashion Start*/
+
+/*Men's Footwear Start Here*/
+
+div.WomanSec ul li:hover .Woman-f{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Woman-f ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Woman-f{
+    display: none;
+}
+.Woman-f ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+/*Men's Footwear End Here*/
+
+/*Woman Fashion Ends*/
+/*Baby Product*/
+div.navBar ul.navOpt li:hover .BabyPro{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left:40%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.BabyPro ul{
+    display:block;
+    list-style-type:none;
+}
+
+.BabyPro{
+    display: none;
+}
+.BabyPro ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+
+/*Baby Section Start Here!*/
+
+div.BabyPro ul li:hover .Baby-f{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Baby-f ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Baby-f{
+    display: none;
+}
+.Baby-f ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+
+
+/*Home and Lifestyle Section Option Start Here!*/
+
+
+div.navBar ul.navOpt li:hover .Home-Style{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left: 50%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Home-Style{
+    display:block;
+    list-style-type:none;
+}
+
+.Home-Style{
+    display: none;
+}
+.Home-Style ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Home and Lifestyle Section Ends*/
+
+
+/*Home-Style Start Here*/
+
+div.Home-Style ul li:hover .Home-f{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Home-f ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Home-f{
+    display: none;
+}
+.Home-f ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+
+
+/*Home and Lifestyle Section Option Ends Here!*/
+
+
+
+/*Medician Section Option Start Here!*/
+
+
+div.navBar ul.navOpt li:hover .Med-Sec{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12.6%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left: 55%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Med-Sec{
+    display:block;
+    list-style-type:none;
+}
+
+.Med-Sec{
+    display: none;
+}
+.Med-Sec ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Medician Section Ends*/
+
+
+/*Med-Sec Start Here*/
+
+div.Med-Sec ul li:hover .Med-f{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Med-f ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Med-f{
+    display: none;
+}
+.Med-f ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+
+
+/*Med-Sec Section Option Ends Here!*/
+
+
+
+/*Outdore & Sports Section Option Start Here!*/
+
+
+div.navBar ul.navOpt li:hover .Sport{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 12.6%;
+    background-color:var(--color1);
+    width: 14%;
+    margin-left: 65%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Sport{
+    display:block;
+    list-style-type:none;
+}
+
+.Sport{
+    display: none;
+}
+.Sport ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+/*Medician Section Ends*/
+
+
+/*Med-Sec Start Here*/
+
+div.Sport ul li:hover .Out-Spot{
+    display:block;
+    position: absolute;
+    left:0;
+    top: 0%;
+    background-color:var(--color1);
+    width: 100%;
+    height: 96.9%;
+    padding-bottom: 5%;
+    margin-left: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px 0;
+    /*box-shadow: -1px 3px 2px var(--color1);*/
+}
+.Out-Spot ul{
+    display:block;
+    list-style-type:none;
+}
+
+.Out-Spot{
+    display: none;
+}
+.Out-Spot ul li{
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left:2.5%;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+
+
+/*Med-Sec Section Option Ends Here!*/
+
+
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.hr1{
+    border: 1px solid rgb(214, 207, 207);
+}
+.hr3{
+    border-bottom: 1px solid rgb(214, 207, 207);
+}
