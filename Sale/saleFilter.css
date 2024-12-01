@@ -90,11 +90,33 @@ div.div-row3 p{
     font-family: sans-serif;
 }
 .brad-search{
-    border-style: none;
-    border-bottom: 1px solid #d6cfcf;
+    /*border-style: none;*/
+    /*border-bottom: 1px solid #d6cfcf;*/
     background-color: var(--color4);
-    width: 95%;
+    width: 85%;
     margin-top: 15px;
+
+    outline: none;
+    border: none;
+    /*background-color:  var(--seccolor3);*/
+
+    /*Don't See This Update some code*/
+
+    /*height: 40px;
+    width: 25%;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    overflow: none;
+    border-radius: 2px;
+    color: var(--color1);
+    margin-top: 50px;*/
+}
+
+hr.hr2{
+    width: 88%;
+    margin-top:-5px;
+    margin-bottom: 10px;
 }
 
 
