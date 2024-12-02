@@ -184,21 +184,23 @@ a{
     background-color:#2874f0;
     color: var(--color1);
     margin-top: 16.5px;
-    margin-left: 420px;
+    margin-left: 381px;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 .c-button1{
     cursor: pointer;
-    background-color:#2874f0;
+    background-color: #2874f0;
     color: var(--color1);
     margin-left: 20px;
     width: 95px;
     height: 15px;
     padding: 15px 5px;
     margin-top: 16.5px;
-    margin-left:134.5px;
+    margin-left: 205.5px;
     text-align: center;
+    border-radius: 50px;
 }
 .hr1{
     border: 1px solid rgb(214, 207, 207);
@@ -471,11 +473,12 @@ a:hover p.dv-head b{
     align-items: center;
     text-align: center;
     padding: 15px 5px;
-    background-color:#2874f0;
+    background-color: #2874f0;
     margin-top: 8px;
-    margin-left: 160px;
+    margin-left: 125px;
     cursor: pointer;
     border-radius: 2px;
+    border-radius: 50px;
 }
 .pay{
     width: 58%;
