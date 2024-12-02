@@ -131,7 +131,7 @@ header {
     background-color: var(--color1);
 }
 .hr1{
-    border: 1px solid transparent;
+    border: 1px solid rgb(214, 207, 207);
 }
 .container2{
     width:75%;
@@ -194,8 +194,6 @@ form{
     border: none;
     padding: 10px;
     font-size: 17px;
-    /* margin-top: 14px; */
-    border-radius: 50px;
 
 }
 .acc{
@@ -206,10 +204,9 @@ form{
     height: 40px;
     outline: none;
     border: none;
-    margin-top: 8px;
+
     padding: 10px;
     font-size: 17px;
-    border-radius: 50px;
 }
 
 
@@ -234,8 +231,6 @@ input.submit{
     border-radius: 2px;
     color: var(--color1);
     margin-top: 50px;
-    border-radius: 50px;
-    padding-left: 31px;
 }
 .submit2{
     height: 40px;
@@ -250,12 +245,11 @@ input.submit{
     border-radius: 2px;
     color: #000000;
     
-    padding: 10px;
+    padding: 5px;
     /*float: ;*/
     margin-top: 20px;
     margin-left: 5%;
     font-style:inherit;
-    border-radius: 50px;
 }
 
 .pointer{
