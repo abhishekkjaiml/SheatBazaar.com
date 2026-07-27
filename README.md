@@ -53,7 +53,7 @@ This project focuses on JavaScript fundamentals, DOM manipulation, and building 
 
 - Search Products
 
-## 🛒 Shopping Cart
+## 🛒 Shopping Cart Will Be Improve In Future
 
 - Add to Cart
 - Remove from Cart
@@ -225,7 +225,7 @@ git push origin feature-name
 ### Connect with Me
 
 - GitHub: https://github.com/abhishekkjaiml
-- LinkedIn: https://www.linkedin.com/in/abhishekkjaiml/
+- LinkedIn: https://www.linkedin.com/in/abhishek-kumar-jaiswar-35632b2b7/
 
 ---
 
